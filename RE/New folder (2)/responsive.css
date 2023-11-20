@@ -1,0 +1,254 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 1170px;
+        
+    }
+
+    .logo {
+        display: flex;
+        gap: 15px;
+        color: #9d9d9d;
+    }
+
+    .nav-link {
+        display: initial;
+        color: #9d9d9d;
+        margin-top: 4px;
+    }
+    
+    .download-search-box {
+        display: initial;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    #title {
+        padding-left: 0;
+    }
+
+    .search-box,
+    .download-search-box {
+        display: flex;
+    }
+
+    .download-link {
+        display: flex;
+        align-items: center;
+        background: #0066b8;
+        color: white;
+        gap: 10px;
+        padding-inline: 15px;
+    }
+
+    .welcome-section .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .features-section .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .testimonials-section .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .banners  {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+
+    .banners .container {
+        width: 100%;
+    }
+
+    .banners img {
+        width: initial;
+    }
+
+    .intellisense {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .debugging {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+
+    }    
+
+    .Git {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }    
+
+    .Extensible {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }  
+
+    .Extensible img {
+        width: 300px;
+    }
+
+    .Azure {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }  
+
+    .paragraph-1 {
+        width: 610px;
+    }
+
+    .intellisense img {
+        margin-left: 400px;
+    }
+
+    .debugging img {
+        margin-left: 1100px;
+    }
+
+    .debugging .paragraph {
+        margin-left: -1100px;
+        width: 610px;
+    }
+
+    .Git img {
+        margin-left: 400px;
+    }
+
+    .Git .paragraph {
+        width: 610px;
+    }
+
+    .Extensible img {
+        margin-left: 1100px;
+    }
+
+    .Extensible .paragraph {
+        margin-left: -1100px;
+        width: 610px;
+    }
+
+    .Azure img {
+        margin-left: 400px;
+    }
+
+    .Azure .paragraph {
+        width: 610px;
+    }
+
+    .way2much .container {
+        width: 100%;
+        
+    }
+
+    .lists-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .first-list {
+        gap: 40px;
+        display: flex;
+    }
+
+    .second-list {
+        display: flex;
+        margin-left: -125px;
+        gap: 40px;
+    }
+
+    .txt {
+        display: grid;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .download {
+        display: flex;
+        justify-content: center;
+    }
+
+    .download button {
+        width: 10%;
+    }
+
+    .lists-container img {
+        position: relative;
+        top: 5px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .wns {
+        margin-top: 30px;
+    }
+
+    .win-downloads {
+        margin-top: -5px;
+    }
+
+    .apple {
+        margin-top: 30px;
+    }
+
+    .text-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .second-text {
+        margin-left: 300px;
+        margin-top: -50px;
+        width: 410px;
+    }
+
+    .get .container {
+        width: 100%;
+    }
+
+    .terms p {
+        width: 682px;
+        margin-left: 600px;
+    }
+
+    .display-fix{
+        display: initial;
+     }
+    footer .container{
+        padding-block: 25px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
+     }
+     footer .right-side{
+        display: flex;
+      gap: 20px;
+     }
+     footer .left-side{
+        font-size: 12px;
+      align-items: center;
+      display: flex;
+      gap: 20px;
+     }
+     .fix{
+        display: flex;
+      gap: 30px;
+      font-size: 1;
+      font-size: 12px;
+      justify-content: center;
+      align-items: center;
+     }
+}

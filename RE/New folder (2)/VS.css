@@ -1,0 +1,418 @@
+.container {
+    width: 100%;
+    margin: auto;
+    padding-inline: 15px;
+}
+
+* { 
+    box-sizing: border-box;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#title {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.img {
+    width: 24px;
+    height: 24px;
+}
+
+header {
+    background-color: #2c2c32;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+a {
+    text-decoration: none;
+    color: #0098ff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    display: none;
+}
+
+.download-search-box {
+    display: none;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    padding: 10px;
+}
+
+.search-box button {
+    background: transparent;
+    border: 0;
+    width: 25px;
+}
+
+.search-box input {
+    width: 183px;
+    background-color: transparent;
+    border: 0;
+    color: #9d9d9d;
+}
+
+.notification { 
+    background-color: #25252b;
+    color: #ccc;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    padding-top: 60px;
+}
+
+.notification a {
+    color: #0098ff;
+}
+
+.welcome-section {
+    background-color: #2c2c32;
+}
+
+.welcome-section h1 {
+    margin: 0;
+}
+
+.download-vscode {
+    color: #fff;
+  background-color: #0066b8;
+  padding: 10px 0;
+  width: 100%;
+  font-family:  "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+  font-weight: 600;
+  height: 65px;
+  font-size: 20px;
+  border: 0;
+    display: grid;
+}
+
+.build-type {
+    margin-top: 0;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgba(255,255,255,.9);
+}
+
+.tooltip {
+    position: relative;
+    background-color: #25252b;
+    color: rgba(255,255,255,.6);
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: -5px;
+    right: 15px;
+    transform: rotate(45deg);
+    background-color: #25252b;
+}
+
+.download-col h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3rem;
+    font-weight: 100;
+    color: white;
+}
+
+.features-section .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.features-section span {
+    display: block;
+    text-align: center;
+}
+
+.features-section .container > div {
+    padding: 30px;
+}
+
+.testimonials-section .card {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 72px auto;
+}
+
+.testimonials-section h6 {
+    margin: 0;
+}
+
+.profile-image img {
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
+}
+
+.testimonials-section .container {
+    display: grid;
+    gap: 15px;
+}
+
+.testimonials-section {
+    background-color: #f5f5f5;
+    padding-block: 30px;
+}
+
+.intellisense {
+    padding-block: 30px;
+    align-content: center;
+}
+
+.intellisense img {
+    margin-left: 80px;
+}
+
+.intellisense, .debugging, .Git, .Extensible, .Azure p {
+    line-height: 2rem;
+}
+
+.debugging {
+    background-color: #f5f5f5;
+    padding-block: 30px;
+}
+
+.debugging img {
+    margin-left: 80px;
+}
+
+.Git {
+    padding-block: 30px;
+}
+
+.Git img {
+    margin-left: 80px;
+}
+
+.Extensible {
+    background-color: #f5f5f5;
+    padding-block: 30px;
+}
+
+.Extensible img {
+    margin-left: 80px;
+}
+
+.Azure {
+    padding-block: 30px;
+}
+
+.Azure img {
+    margin-left: 80px;
+}
+
+.head {
+    text-align: center;
+}
+
+.head h2 {
+    font-weight: 100;
+}
+
+.languages {
+    background-color: #f5f5f5;
+    padding-block: 30px;
+}
+
+.first-list {
+    display: inline-grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row: auto auto;
+    gap: 10px;
+    margin-right: 120px;
+}
+
+.second-list {
+    display: inline-grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row: auto auto;
+    gap: 10px;
+}
+
+.download {
+    margin-top: 30px;
+}
+
+.download button {
+    color: #fff;
+    background-color: #0066b8;
+    padding: 10px 0;
+    font-size: 1.8rem;
+    width: 100%;
+    font-family:  "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-weight: 600;
+    height: 65px;
+    font-size: 20px;
+    border: 0;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.grid-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.xelp {
+    padding-block: 30px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.wn-sys img {
+    width: 15px;
+    height: 19px;
+}
+
+.wn-sys {
+    color: #fff;
+    background-color: #0066b8;
+    width: 60%;
+    font-family:  "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-weight: 600;
+    height: 65px;
+    font-size: 20px;
+    border: 0;
+    margin-top: 20px;
+}
+
+.win-downloads {
+    margin: auto;
+    padding-top: 20px;
+}
+
+td a {
+    background: #0066b8;
+    color: white;
+    border-radius: 2px;
+    padding: 3px 5px;
+}
+
+tr td {
+    padding: 5px;
+}
+
+.peng {
+    padding-block: 30px;
+}
+
+.button-cont {
+    display: flex;
+    gap: 10px;
+}
+
+.get {
+    background-color: #f5f5f5;
+    padding-block: 30px;
+}
+
+.first-text {
+    text-align: center;
+}
+
+
+.first-text h2 {
+    font-weight: 600;
+}
+
+.second-text {
+    text-align: center;
+  padding-top: 50px;
+}
+
+.second-text h2 {
+    font-weight: 600;
+}
+
+.terms {
+    text-align: center;
+    line-height: 40px;
+    padding-block: 50px;
+}
+
+.terms h2 {
+    font-weight: 600;
+}
+
+footer {
+    background-color: #333333;
+}
+
+footer .container {
+    padding-block: 25px;
+    display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-icon2 {
+    background-color: white;
+    border: 0;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    cursor: pointer;
+ }
+
+ .footer-icon {
+    background-color: white;
+    border: 0;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    position: relative;
+ }
+
+ .footer-icon::before {
+    content: '';
+  position: absolute;
+  top: 7px;
+  right: -8px;
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg);
+  background-color: white;
+ }
+
+ .display-fix {
+    display: none;
+ }
+
+ .fix {
+  display: flex;
+  gap: 30px;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+ }
